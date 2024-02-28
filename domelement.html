@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="hello()">click here</button>
+    <div id="hello">
+
+    </div>
+</body>
+<script>
+function hello(){
+    let d=document.querySelector("#hello")
+    let c=document.createElement("hi")
+    c.innerText="hello"
+    d.appendChild(c);
+}
+</script>
+</html>
